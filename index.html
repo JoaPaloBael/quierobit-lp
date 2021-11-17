@@ -17,6 +17,15 @@
 </head>
 
 <body>
+    <video  id="bgvid" playsinline autoplay muted loop><source src="./img/videos/video.mp4" type="video/mp4">
+
+            <!--
+      - Video needs to be muted, since Chrome 66+ will not autoplay video with sound.
+      WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+</video>
+<div class="opacidad">
+
+
     <header>
         <nav>
             <div href="./index.html">
@@ -54,11 +63,12 @@
         <form action="recibe.html" method="GET">
             <!-- Formulario de contacto con envio de mail -->
         </form>
+    </main>
         <footer>
             <p>&copy QuieroBit 2021</p>
             <p>Made width ♥ by <a href="">Johanna Palo</a></p>
         </footer>
-    </main>
+    </div>
 </body>
 
 </html>
