@@ -22,7 +22,7 @@ body {
 /* HEADER */
 header {
   width: 100%;
-  height: 100vh;
+  height: 90vh;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -54,7 +54,7 @@ nav {
 .nav-menu {
   position: fixed;
   width: 100%;
-  height: 0vh;
+  max-height: 60vh;
   top: 90px;
   background: rgba(0, 0, 0, .95);
   text-align: center;
@@ -104,7 +104,7 @@ nav {
 }
 
 .banner-text h1 {
-  font-size: 30px;
+  font-size: 28px;
   margin-bottom: 30px;
   font-weight: 500;
   margin-bottom: 30px;
@@ -123,6 +123,7 @@ nav {
 
 .banner-text div {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -173,7 +174,7 @@ video {
 }
 
 .opacidad {
-  height: 70vh;
+  height: 90vh;
   width: 100vw;
   position: absolute;
   top: 0;
@@ -181,6 +182,13 @@ video {
   background-color: #080324;
   opacity: .85;
   z-index: -1;
+}
+
+.seccion1{
+  height: 60vh;
+  background-color: #0B0D2A;
+  width: 100vw;
+  position: absolute;
 }
 
 /*--------------------------------*/
