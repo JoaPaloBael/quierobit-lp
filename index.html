@@ -17,58 +17,56 @@
 </head>
 
 <body>
-    <video  id="bgvid" playsinline autoplay muted loop><source src="./img/videos/video.mp4" type="video/mp4">
-
-            <!--
-      - Video needs to be muted, since Chrome 66+ will not autoplay video with sound.
-      WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
-</video>
-<div class="opacidad">
+    <video id="bgvid" playsinline autoplay muted loop >
+        <source src="./img/videos/Este Joha!.mov">
+    </video>
+            <div class="opacidad">
 
 
-    <header>
-        <nav>
-            <div href="./index.html">
-                <img class="logo" src="./img/logos/logo-claro.png" alt="quieroBit">
+        <header>
+            <nav>
+                <div href="./index.html">
+                    <img class="logo" src="./img/logos/logo-claro.png" alt="quieroBit">
+                </div>
+                <input type="checkbox" id="check">
+                <label for="check" class="bar-btn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <ul class="nav-menu">
+                    <li><a class="active" href="#">Home</a></li>
+                    <li><a href="#">Seccion 1</a></li>
+                    <li><a href="#">Seccion 2</a></li>
+                    <li><a href="#">Formulario</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+
+            </nav>
+            <div class="banner-text">
+                <!-- <h2>QUIERO BIT</h2> -->
+                <h1>QUIERO<br><span>BIT</span></h1>
+                <div>
+                    <a href="#" class="button1">EXPLORE</a>
+                    <a href="#" class="button2">RESERVA YA</a>
+                </div>
             </div>
-            <input type="checkbox" id="check">
-            <label for="check" class="bar-btn">
-                <i class="fas fa-bars"></i>
-            </label>
-            <ul class="nav-menu">
-                <li><a class="active" href="#">Home</a></li>
-                <li><a href="#">Seccion 1</a></li>
-                <li><a href="#">Seccion 2</a></li>
-                <li><a href="#">Formulario</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-
-        </nav>
-        <div class="banner-text">
-            <h2>QUIERO BIT</h2>
-            <h1>CRIPTO<br><span>MONEDAS</span></h1>
-            <div>
-                <a href="#" class="button1">EXPLORE</a>
-                <a href="#" class="button2">RESERVA AHORA</a>
-            </div>
-        </div>
-    </header>
-    <main>
-        <section>
-            <p>Seccion 1</p>
-        </section>
-        <section>
-            <p>Seccion 2</p>
-        </section>
-        <form action="recibe.html" method="GET">
-            <!-- Formulario de contacto con envio de mail -->
-        </form>
-    </main>
+        </header>
+        <main>
+            <section>
+                <p>Seccion 1</p>
+            </section>
+            <section>
+                <p>Seccion 2</p>
+            </section>
+            <form action="recibe.html" method="GET">
+                <!-- Formulario de contacto con envio de mail -->
+            </form>
+        </main>
         <footer>
             <p>&copy QuieroBit 2021</p>
             <p>Made width ♥ by <a href="">Johanna Palo</a></p>
         </footer>
-    </div>
+
+</div>
 </body>
 
 </html>
