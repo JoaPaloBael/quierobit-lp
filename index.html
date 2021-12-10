@@ -21,7 +21,7 @@
         <source src="./img/videos/Este Joha!.mov">
     </video>
     <div class="opacidad"></div>
-    <header>
+    <header class="header-nav">
         <nav>
             <div href="./index.html">
                 <img class="logo" src="./img/logos/logo-claro.png" alt="quieroBit">
@@ -31,11 +31,12 @@
                 <i class="fas fa-bars"></i>
             </label>
             <ul class="nav-menu">
-                <li><a class="active" href="#">Home</a></li>
-                <li><a href="#">Seccion 1</a></li>
-                <li><a href="#">Seccion 2</a></li>
-                <li><a href="#">Formulario</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a class="active" href="./index.html">Inicio</a></li>
+                <li><a href="./index.html#infoCurso">Curso práctico</a></li>
+                <li><a href="./index.html#temario">Temario</a></li>
+                <li><a href="./index.html#programaCompleto">Descargá el programa</a></li>
+                <li><a href="./index.html#infoCurso">Formulario</a></li>
+                <li><a href="./index.html#infoCurso">Contacto</a></li>
             </ul>
 
         </nav>
@@ -52,60 +53,79 @@
     </header>
     <main>
         <section class="seccion1" id="infoCurso">
-            <div class="skill-card">
-                <header class="skill-card__header"><img class="skill-card__icon" src="./img/logos/bloques/1.svg" alt="HTML5 Logo"/></header>
+            <div class="nombre-curso">
+                <h2>CURSO PRÁCTICO: <span>COMO GENERAR DINERO CON CRIPTOACTIVOS.</span></h2>
+                <p>Clases son 100% online e interactivas.</p>
+                <p>Vas a comprender los fundamentos y vas a poner en práctica lo aprendido.</p>
+                <h3>El programa está dividido en 4 bloques fundamentales</h3>
+            </div>
+            <a href="./img/textos/FAQ.docx" download="ProgramaQuieroBit" class="btn-descarga">DESCARGA EL PROGRAMA
+                COMPLETO</a>
+            <!-- Cards -->
+            <div class="skill-card" id="temario">
+                <header class="skill-card__header"><img class="skill-card__icon" src="./img/logos/bloques/1.svg"
+                        alt="HTML5 Logo" /></header>
                 <section class="skill-card__body">
-                  <h2 class="skill-card__title">Introducción</h2><span class="skill-card__duration">Ver temas</span>
-                  <ul class="skill-card__knowledge">
-                    <li>- Historia del dinero</li>
-                    <li>- ¿Cualquiera puede aprender</li>
-                    <li>- ¿Cómo se generan nuevos bitcoins?</li>
-                    <li>- Principales mitos</li>
-                    <li>- Estafas ¿Como prevenirlas?</li>
-                  </ul>
+                    <h2 class="skill-card__title">Introducción</h2>
+                    <span class="skill-card__duration"><p>Ver temas</p> <i class="fas fa-angle-double-down"></i></span>
+                    <ul class="skill-card__knowledge">
+                        <li>- Historia del dinero</li>
+                        <li>- ¿Cualquiera puede aprender</li>
+                        <li>- ¿Cómo se generan nuevos bitcoins?</li>
+                        <li>- Principales mitos</li>
+                        <li>- Estafas ¿Como prevenirlas?</li>
+                    </ul>
                 </section>
-              </div>
+            </div>
             </div>
             <div class="skill-card">
-                <header class="skill-card__header"><img class="skill-card__icon" src="./img/logos/bloques/2.svg" alt="HTML5 Logo"/></header>
+                <header class="skill-card__header"><img class="skill-card__icon" src="./img/logos/bloques/2.svg"
+                        alt="HTML5 Logo" /></header>
                 <section class="skill-card__body">
-                  <h2 class="skill-card__title">Conceptos claves</h2><span class="skill-card__duration">Ver temas</span>
-                  <ul class="skill-card__knowledge">
-                    <li>- Internet: información vs valor</li>
-                    <li>- Adquirí tus primeras criptos: paso a paso</li>
-                    <li>- Errores comunes al comenzar</li>
-                    <li>- BONUS: Glosario Cripto</li>
-                  </ul>
+                    <h2 class="skill-card__title">Conceptos claves</h2>
+                    <span class="skill-card__duration"><p>Ver temas</p> <i class="fas fa-angle-double-down"></i></span>
+                    <ul class="skill-card__knowledge">
+                        <li>- Internet: información vs valor</li>
+                        <li>- Adquirí tus primeras criptos: paso a paso</li>
+                        <li>- Errores comunes al comenzar</li>
+                        <li>- BONUS: Glosario Cripto</li>
+                    </ul>
                 </section>
-              </div>
+            </div>
             </div>
             <div class="skill-card">
-                <header class="skill-card__header"><img class="skill-card__icon" src="./img/logos/bloques/3.svg" alt="HTML5 Logo"/></header>
+                <header class="skill-card__header"><img class="skill-card__icon" src="./img/logos/bloques/3.svg"
+                        alt="HTML5 Logo" /></header>
                 <section class="skill-card__body">
-                  <h2 class="skill-card__title">Seguridad y almacenamiento</h2><span class="skill-card__duration">Ver temas</span>
-                  <ul class="skill-card__knowledge">
-                    <li>- Almacená criptos sin experiencia previa</li>
-                    <li>- Emociones al operar y ciclos del mercado</li>
-                    <li>- Porqué invertir?</li>
-                    <li>- Wallets recomendadas</li>
-                  </ul>
+                    <h2 class="skill-card__title">Seguridad y almacenamiento</h2>
+                    <span class="skill-card__duration"><p>Ver temas</p> <i class="fas fa-angle-double-down"></i></span>
+                    <ul class="skill-card__knowledge">
+                        <li>- Almacená criptos sin experiencia previa</li>
+                        <li>- Emociones al operar y ciclos del mercado</li>
+                        <li>- Porqué invertir?</li>
+                        <li>- Wallets recomendadas</li>
+                    </ul>
                 </section>
-              </div>
+            </div>
             </div>
             <div class="skill-card">
-                <header class="skill-card__header"><img class="skill-card__icon" src="./img/logos/bloques/4.svg" alt="HTML5 Logo"/></header>
+                <header class="skill-card__header"><img class="skill-card__icon" src="./img/logos/bloques/4.svg"
+                        alt="HTML5 Logo" /></header>
                 <section class="skill-card__body">
-                  <h2 class="skill-card__title">Tecnologia en evolución</h2><span class="skill-card__duration">Ver temas</span>
-                  <ul class="skill-card__knowledge">
-                    <li>Aplicaciones: casos de uso</li>
-                    <li>Indicadores para comprar o vender tus criptos</li>
-                    <li>Cómo generar ingresos pasivos</li>
-                    <li>Estategias</li>
-                  </ul>
+                    <h2 class="skill-card__title">Tecnologia en evolución</h2>
+                    <span class="skill-card__duration"><p>Ver temas</p> <i class="fas fa-angle-double-down"></i></span>
+
+                    <ul class="skill-card__knowledge">
+                        <li>Aplicaciones: casos de uso</li>
+                        <li>Indicadores para comprar o vender tus criptos</li>
+                        <li>Cómo generar ingresos pasivos</li>
+                        <li>Estategias</li>
+                    </ul>
                 </section>
-              </div>
             </div>
-            <a href="./img/textos/FAQ.docx" download="ProgramaQuieroBit" class="button2">DESCARGA EL PROGRAMA COMPLETO</a>
+            </div>
+            <a href="./img/textos/FAQ.docx" download="ProgramaQuieroBit" class="btn-descarga" id="programaCompleto">DESCARGA EL PROGRAMA
+                COMPLETO</a>
 
         </section>
         <form action="recibe.html" method="GET" id="formInscripcion">
