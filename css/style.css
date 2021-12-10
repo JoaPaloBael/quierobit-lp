@@ -18,6 +18,9 @@ body {
   background-color: #0b0d2a62;
   font-family: 'Montserrat', sans-serif;
 }
+main{
+  background-color: #080324;
+}
 
 /* HEADER */
 .header-nav {
@@ -366,19 +369,20 @@ video {
 /*---------- Formulario ---------*/
 /*------------------------------*/
 #formInscripcion{
-  background-color: #0D102C;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 5rem;
 }
 
 .form {
   background-color: #15172b;
   border-radius: 20px;
   box-sizing: border-box;
-  height: 500px;
   padding: 20px;
   width: 320px;
+  margin: 0 auto;
+  padding-bottom: 2rem;
 }
 
 .title {
@@ -395,6 +399,17 @@ video {
   font-size: 16px;
   font-weight: 600;
   margin-top: 10px;
+}
+.seleccion{
+  background-color: #303245;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: rgb(165, 157, 157);
+  font-size: 18px;
+  outline: 0;
+  padding: 0;
+  width: 100%;
 }
 
 .input-container {
@@ -543,7 +558,7 @@ outline: 0;
   }
 
  .btn-descarga{
-    margin: 3rem auto 0 auto;
+  margin: 0rem auto 2rem auto;
   }
 }
 
