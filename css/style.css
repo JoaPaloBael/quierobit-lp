@@ -20,6 +20,7 @@ body {
 }
 main{
   background-color: #080324;
+  padding-bottom: 1rem;
 }
 
 /* HEADER */
@@ -32,10 +33,6 @@ main{
   height: 15vh;
 }
 
-footer{
-  background-color: red;
-  z-index: 1564565;
-}
 /*NAV*/
 
 .header-nav nav {
@@ -381,7 +378,7 @@ video {
   box-sizing: border-box;
   padding: 20px;
   width: 320px;
-  margin: 0 auto;
+  margin: 0 auto 2rem auto;
   padding-bottom: 2rem;
 }
 
@@ -504,6 +501,46 @@ outline: 0;
   background-color: #06b;
 }
 
+
+/*--------------------------------*/
+/*----------Footer ---------------*/
+/*------------------------------*/
+
+footer{
+  height: 3vh;
+  color: white;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.redes{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.contacto{
+  padding: 0 30px;
+  margin-top: 50px;
+  text-align: center;
+  color: #fff;
+}
+
+.contacto h3{
+  font-size: 30px;
+  margin: 30px auto;
+}
+
+i.fab{
+  padding: 0 38px;
+  margin-bottom: 30px;
+  font-size: 50px;
+}
+
+.contacto a{
+  color: white;
+}
 /*--------------------------------*/
 /*----------Media Querys---------*/
 /*------------------------------*/
@@ -558,7 +595,7 @@ outline: 0;
   }
 
  .btn-descarga{
-  margin: 0rem auto 2rem auto;
+  margin: 2rem auto 2rem auto;
   }
 }
 
