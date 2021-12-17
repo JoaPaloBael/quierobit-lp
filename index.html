@@ -13,178 +13,108 @@
     <script src="https://kit.fontawesome.com/8f5c9daf85.js" crossorigin="anonymous"></script>
     <!-- Estilo -->
     <link rel="stylesheet" href="./css/style.css">
+
     <title>QuieroBit</title>
 </head>
 
 <body>
-    <video id="bgvid" playsinline autoplay muted loop>
+    <!-- Video de fondo -->
+    <video id="video" autoplay muted loop>
         <source src="./img/videos/Este Joha!.mov">
     </video>
-    <div class="opacidad"></div>
-
-    <header class="header-nav">
-        <nav>
-            <a href="./index.html">
-                <img class="logo" src="./img/logos/logo-claro.png" alt="quieroBit">
-            </a>
-            <input type="checkbox" id="check">
-            <label for="check" class="bar-btn">
-                <i class="fas fa-bars"></i>
-            </label>
-            <ul class="nav-menu">
-                <li><a class="active" href="./index.html">Inicio</a></li>
-                <li><a href="./index.html#infoCurso">Curso práctico</a></li>
-                <li><a href="./index.html#temario">Temario</a></li>
-                <li><a href="./index.html#programaCompleto">Descargá el programa</a></li>
-                <li><a href="./index.html#formInscripcion">Formulario</a></li>
-                <li><a href="./index.html#infoCurso">Contacto</a></li>
-            </ul>
-
-        </nav>
-    </header>
-
-        <!-- Seccion 1 -INTRO -->
+    <!-- Barra navegación -->
+    <nav class="topnav" id="myTopnav">
+        <a href="./index.html"><img class="logo" src="./img/logos/logo-claro.png" alt="quieroBit"></a>
+        <a href="./index.html" class="link">INICIO</a>
+        <a href="./index.html#infoCurso" class="link">CURSO PRÁCTICO</a>
+        <a href="./index.html#temario" class="link">TEMARIO</a>
+        <a href="./index.html#formInscripcion" class="link">FORMULARIO</a>
+        <a href="./index.html#footer" class="link">CONTACTO</a>
+        <a class="icon" id="menuBtn">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+    <!-- Header -->
+    <header class="header">
+        <!-- Opacidad -->
+        <div class="opacidad"> </div>
+        <!-- Introducción -->
         <div class="banner-text">
             <h1>LLEVA TUS FINANZAS AL SIGUIENTE NIVEL<br><span>CON CRIPTOMONEDAS</span></h1>
             <h2>Inscribite en nuestro curso y empezá a aprovechar las oportunidades que ofrecen las
                 CRIPTOMONEDAS.
             </h2>
+            <!-- Botones header -->
             <div>
                 <a href="#infoCurso" class="button1">MÁS INFORMACIÓN</a>
                 <a href="#formInscripcion" class="button2">INSCRIBIRME</a>
             </div>
         </div>
-        <main>
-        <!-- Seccion 2 -->
+    </header>
+    <!-- Contenido principal -->
+    <main class="main">
+        <!-- Seccion 1 // InfoCurso-->
         <section class="seccion1" id="infoCurso">
             <div class="nombre-curso">
                 <h2>CURSO PRÁCTICO: <span>COMO GENERAR DINERO CON CRIPTOACTIVOS.</span></h2>
                 <p>Clases son 100% online e interactivas.</p>
                 <p>Vas a comprender los fundamentos y vas a poner en práctica lo aprendido.</p>
-                <h3>El programa está dividido en 4 bloques fundamentales</h3>
+                <p>Te vamos a brindar los conocimientos, herramientas y todo lo necesario para que puedas dar los
+                    primeros pasos de forma segura en el mundo de las criptomonedas.</p>
+                <p>Brindamos mucho material adicional para que puedas complementarlo con lo aprendido a través de los
+                    encuentros.</p>
+                <p> <strong> ¡Las clases quedan grabadas, para que tengas acceso de por vida!</strong></p>
             </div>
-            <a href="./img/textos/FAQ.docx" download="ProgramaQuieroBit" class="btn-descarga">DESCARGA EL PROGRAMA
-                COMPLETO</a>
-            <!-- Cards -->
-            <div class="cards">
-
-                <div class="skill-card" id="temario">
-                    <div class="skill-card__header">
-                        <img class="skill-card__icon" src="./img/logos/bloques/1.svg" alt="HTML5 Logo" />
-                    </div>
-                    <section class="skill-card__body">
-                        <h2 class="skill-card__title">Introducción</h2>
-                        <span class="skill-card__duration">
-                            <p>Ver temas</p> <i class="fas fa-angle-double-down"></i>
-                        </span>
-                        <ul class="skill-card__knowledge">
-                            <li>- Historia del dinero</li>
-                            <li>- ¿Cualquiera puede aprender</li>
-                            <li>- ¿Cómo se generan nuevos bitcoins?</li>
-                            <li>- Principales mitos</li>
-                            <li>- Estafas ¿Como prevenirlas?</li>
-                        </ul>
-                    </section>
-                </div>
-
-                <div class="skill-card">
-                    <div class="skill-card__header">
-                        <img class="skill-card__icon" src="./img/logos/bloques/2.svg" alt="HTML5 Logo" />
-                    </div>
-                    <section class="skill-card__body">
-                        <h2 class="skill-card__title">Conceptos claves</h2>
-                        <span class="skill-card__duration">
-                            <p>Ver temas</p> <i class="fas fa-angle-double-down"></i>
-                        </span>
-                        <ul class="skill-card__knowledge">
-                            <li>- Internet: información vs valor</li>
-                            <li>- Adquirí tus primeras criptos: paso a paso</li>
-                            <li>- Errores comunes al comenzar</li>
-                            <li>- BONUS: Glosario Cripto</li>
-                        </ul>
-                    </section>
-                </div>
-
-                <div class="skill-card">
-                    <div class="skill-card__header">
-                        <img class="skill-card__icon" src="./img/logos/bloques/3.svg" alt="HTML5 Logo" />
-                    </div>
-                    <section class="skill-card__body">
-                        <h2 class="skill-card__title">Seguridad y almacenamiento</h2>
-                        <span class="skill-card__duration">
-                            <p>Ver temas</p> <i class="fas fa-angle-double-down"></i>
-                        </span>
-                        <ul class="skill-card__knowledge">
-                            <li>- Almacená criptos sin experiencia previa</li>
-                            <li>- Emociones al operar y ciclos del mercado</li>
-                            <li>- Porqué invertir?</li>
-                            <li>- Wallets recomendadas</li>
-                        </ul>
-                    </section>
-                </div>
-
-                <div class="skill-card">
-                    <div class="skill-card__header">
-                        <img class="skill-card__icon" src="./img/logos/bloques/4.svg" alt="HTML5 Logo" />
-                    </div>
-                    <section class="skill-card__body">
-                        <h2 class="skill-card__title">Tecnologia en evolución</h2>
-                        <span class="skill-card__duration">
-                            <p>Ver temas</p> <i class="fas fa-angle-double-down"></i>
-                        </span>
-
-                        <ul class="skill-card__knowledge">
-                            <li>Aplicaciones: casos de uso</li>
-                            <li>Indicadores para comprar o vender tus criptos</li>
-                            <li>Cómo generar ingresos pasivos</li>
-                            <li>Estategias</li>
-                        </ul>
-                    </section>
-                </div>
-            </div>
-
-            <a href="./img/textos/FAQ.docx" download="ProgramaQuieroBit" class="btn-descarga"
-                id="programaCompleto">DESCARGA EL PROGRAMA COMPLETO</a>
-
         </section>
+        <!-- Seccion 2 // Temario-->
+            <!-- Pagination -->
+            <div class="pagination">
+                <ul>
+                    <li class="btn prev">
+                        <span><i class="fas fa-angle-left">PREV</i></span>
+                    </li>
+                    <li class="num active"><span>1</span></li>
+                    <li class="num"><span>2</span></li>
+                    <li class="num"><span>3</span></li>
+                    <li class="num"><span>4</span></li>
+                    <li class="btn sig">
+                        <span><i class="fas fa-angle-right">SIG</i></span>
+                    </li>
+                </ul>
+            </div>
         <!-- Formulario -->
-        <form action="#" method="GET" id="formInscripcion" class="form">
-                <div class="title">Curso práctico</div>
-                <div class="subtitle">Suscribite para recibir más información</div>
-                <div class="input-container ic1">
-                  <input class="input" type="text" name="Nombre" placeholder="Nombre" required>
-                  <div class="cut"></div>
-                </div>
-                <div class="input-container ic2">
-                  <input class="input" type="text" name="apellido" placeholder="Apellido" required>
-                  <div class="cut"></div>
-                </div>
-                <div class="input-container ic2">
-                  <input id="email" class="input" type="text" name="Email" placeholder="Email" required>
-                  <div class="cut cut-short"></div>
-                </div>
-                <select name="Motivo" class="input-container ic2 seleccion">
-                    <option value="Reservar" class="option">Reservar mi lugar</option>
-                    <option value="Mas_info" class="option">Más info</option>
-                    <option value="Webinar" class="option">Webinar</option>
-                </select>
-
-                <button type="submit" class="submit">Enviar</button>
+        <form method="POST" id="formInscripcion" class="form">
+            <div class="title">Curso práctico</div>
+            <div class="subtitle">Suscribite para recibir más información</div>
+            <div class="input-container ic1">
+                <input class="input" type="text" name="Nombre" placeholder="Nombre" required>
+            </div>
+            <div class="input-container ic2">
+                <input class="input" type="text" name="apellido" placeholder="Apellido" required>
+            </div>
+            <div class="input-container ic2">
+                <input id="email" class="input" type="text" name="Email" placeholder="Email" required>
+            </div>
+            <select name="Motivo" class="input-container ic2 seleccion">
+                <option value="Reservar" class="option">Reservar mi lugar</option>
+                <option value="Mas_info" class="option">Más info</option>
+                <option value="Webinar" class="option">Webinar</option>
+            </select>
+            <input type="submit" class="submit" value="Enviar"></input>
         </form>
         <section class="contacto">
             <h3>Contactanos</h3>
-                <div class="redes">
-                    <a href="https://www.instagram.com/quierobit/"><i class="fab fa-instagram"></i></a>
-                    <a href="tel:+5491165691701"><i class="fab fa-whatsapp "></i></a>
-                </div>
+            <div class="redes">
+                <a href="https://www.instagram.com/quierobit/"><i class="fab fa-instagram"></i></a>
+                <a href="tel:+5491165691701"><i class="fab fa-whatsapp "></i></a>
+            </div>
 
         </section>
-        <footer>
+        <footer id="footer">
             <p>&copy QuieroBit 2021</p>
         </footer>
     </main>
-
-
+    <script src="./js/navbar.js"></script>
 </body>
 
 </html>

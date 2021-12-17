@@ -12,96 +12,63 @@ $textoPrimario: #D0D0E7;
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
-}
-
-body {
-  background-color: #0b0d2a62;
+  max-width: 100%;
   font-family: 'Montserrat', sans-serif;
 }
-main{
-  background-color: #080324;
+
+main {
   padding-bottom: 1rem;
+  background-color: #111961;
 }
 
 /* HEADER */
-.header-nav {
-  width: 100vw;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  z-index: 2;
-  height: 15vh;
+
+.header {
+  width: 100%;
+  height: 80vh;
 }
 
 /*NAV*/
-
-.header-nav nav {
-  height: 100px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .logo {
   width: 140px;
   margin-left: 20px;
 }
 
-.bar-btn {
-  font-size: 25px;
-  color: #FFFFFF;
-  margin-right: 20px;
-  cursor: pointer;
-}
-
-.nav-menu {
+.topnav {
+  overflow: hidden;
+  background-color: #0B0D2A;
+  position: sticky;
+  top: 0;
+  left: 0;
   width: 100%;
-  position: fixed;
-  max-height: 85vh;
-  top: 90px;
-  background: rgba(0, 0, 0, 0.966);
-  text-align: center;
-  transition: all .5s;
 }
 
-.nav-menu li {
-  display: none;
-  line-height: 30px;
-  margin: 50px 0;
-  transition: all .5s;
-}
-
-.nav-menu li a {
-  color: #FFFFFF;
-  font-size: 16px;
-  text-transform: uppercase;
-  font-weight: 500;
-}
-
-.nav-menu li a.active,
-.nav-menu li a:hover {
-  transition: .3s;
-  font-weight: 900;
-  text-decoration: underline;
-
-}
-
-#check {
-  display: none;
-}
-
-#check:checked~.nav-menu {
-  height: 100vh;
-}
-
-#check:checked~.nav-menu li {
+.topnav a {
+  float: left;
   display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  height: 10vh;
 }
+
+
+.link:hover {
+  background-color: #359df3;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+
 
 /*BANNER TEXT*/
 .banner-text {
-  padding: 0 30px;
+  padding: 10px 30px;
   margin-top: 50px;
   text-align: center;
   color: white;
@@ -113,8 +80,9 @@ main{
   margin-bottom: 30px;
   font-weight: 500;
   margin-bottom: 30px;
+  max-width: 880px;
+  margin: 0 auto;
 }
-
 
 .banner-text span {
   font-weight: 900;
@@ -163,30 +131,30 @@ main{
   transition: .5s;
 }
 
+
 /*VIDEO FONDO*/
-video {
+#video {
   position: fixed;
-  min-width: 100vw;
+  min-width: 350vw;
   z-index: -100;
   background-color: #030414e0;
   background-size: cover;
   transition: 3s opacity;
-
-}
-
-.stopfade {
-  opacity: .8;
 }
 
 .opacidad {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   position: absolute;
-  top: 0;
+  top: 12vh;
   left: 0;
   background-color: #080324;
   opacity: .85;
   z-index: -1;
+}
+
+.opacidad.paddingTop {
+  margin-top: 37vh;
 }
 
 /*--------------------------------*/
@@ -250,13 +218,14 @@ video {
   flex-direction: column;
   max-width: 250px;
   margin: 15px auto;
-  height: 310px;
+  max-height: 360px;
   background-color: aliceblue;
   border-radius: 5px;
   border: solid 4px #fff;
 
 }
-.cards{
+
+.cards {
   display: flex;
   flex-wrap: wrap;
 }
@@ -363,9 +332,58 @@ video {
 }
 
 /*--------------------------------*/
+/*---------- Pagination ---------*/
+/*------------------------------*/
+.pagination{
+  max-width: 500px;
+  margin: 0 auto;
+}
+.pagination ul {
+  display: flex;
+  background-color: #FFFFFF;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 8px;
+  border-radius: 50px;
+}
+
+.pagination ul li {
+  list-style: none;
+  line-height: 45px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.pagination ul li.num {
+  height: 45px;
+  width: 45px;
+}
+
+.pagination ul li.btn {
+  background-color: #FFFFFF;
+  padding: 0 20px;
+}
+.pagination ul li.prev {
+  border-radius: 25px 5px 5px 25px;
+}
+.pagination ul li.sig {
+  border-radius: 5px 25px 25px 5px;
+}
+.pagination ul li.active,
+.pagination ul li.num:hover,
+.pagination ul li.btn:hover{
+  color: white;
+  background-color: #0D102C;
+
+}
+
+/*--------------------------------*/
 /*---------- Formulario ---------*/
 /*------------------------------*/
-#formInscripcion{
+#formInscripcion {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -397,7 +415,8 @@ video {
   font-weight: 600;
   margin-top: 10px;
 }
-.seleccion{
+
+.seleccion {
   background-color: #303245;
   border-radius: 12px;
   border: 0;
@@ -411,7 +430,6 @@ video {
 
 .input-container {
   height: 50px;
-  position: relative;
   width: 100%;
 }
 
@@ -452,8 +470,8 @@ video {
   width: 50px;
 }
 
-.input:focus ~ .cut,
-.input:not(:placeholder-shown) ~ .cut {
+.input:focus~.cut,
+.input:not(:placeholder-shown)~.cut {
   transform: translateY(8px);
 }
 
@@ -469,16 +487,16 @@ video {
   top: 20px;
 }
 
-.input:focus ~ .placeholder,
-.input:not(:placeholder-shown) ~ .placeholder {
+.input:focus~.placeholder,
+.input:not(:placeholder-shown)~.placeholder {
   transform: translateY(-30px) translateX(10px) scale(0.75);
 }
 
-.input:not(:placeholder-shown) ~ .placeholder {
+.input:not(:placeholder-shown)~.placeholder {
   color: #808097;
 }
 
-.input:focus ~ .placeholder {
+.input:focus~.placeholder {
   color: #dc2f55;
 }
 
@@ -492,7 +510,7 @@ video {
   font-size: 18px;
   height: 50px;
   margin-top: 38px;
-outline: 0;
+  outline: 0;
   text-align: center;
   width: 100%;
 }
@@ -506,96 +524,114 @@ outline: 0;
 /*----------Footer ---------------*/
 /*------------------------------*/
 
-footer{
+footer {
   height: 3vh;
   color: white;
   text-align: center;
   margin: 10px auto;
 }
 
-.redes{
+.redes {
   display: flex;
   flex-direction: row;
   justify-content: center;
   font-size: 25px;
 }
 
-.contacto{
+.contacto {
   padding: 0 30px;
   margin-top: 50px;
   text-align: center;
   color: #fff;
 }
 
-.contacto h3{
+.contacto h3 {
   font-size: 30px;
   margin: 30px auto;
 }
 
-i.fab{
+i.fab {
   padding: 0 38px;
   margin-bottom: 30px;
   font-size: 50px;
 }
 
-.contacto a{
+.contacto a {
   color: white;
 }
+
+.displayNone {
+  display: none !important;
+}
+
 /*--------------------------------*/
 /*----------Media Querys---------*/
 /*------------------------------*/
 
-@media (min-width: 900px) {
+@media (min-width: 800px) {
 
   /*Menú*/
   .logo {
     margin-left: 30px;
   }
-
-
-  .bar-btn {
-    display: none;
-  }
-
-  .nav-menu {
-    top: 0;
-    transition: none;
-    background: none;
-    text-align: right;
-  }
-
-  .nav-menu li {
-    display: inline;
-    line-height: 100px;
-    margin: 0 20px;
-    transition: none;
-
-  }
-
-  .nav-menu li a {
-    font-size: 12px;
-  }
-
   .banner-text h1 {
     font-size: 70px;
     margin-bottom: 30px;
   }
-
   .banner-text {
     font-size: 20px;
-
   }
-
-  .nombre-curso{
+  .nombre-curso {
     max-width: 800px;
   }
 
-  .cards{
+  .cards {
     margin: 5rem 0;
   }
 
- .btn-descarga{
-  margin: 2rem auto 2rem auto;
+  .btn-descarga {
+    margin: 2rem auto 2rem auto;
+  }
+  /*VIDEO*/
+  #video{
+    min-width: 170vw;
+  }
+
+  /*FORM*/
+  .form{
+    width: 600px;
+  }
+
+  /*OPACIDAD*/
+  .opacidad{
+    top: 10vh;
   }
 }
 
+
+/* Mobile last - NavBar*/
+@media (max-width: 800px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+    margin: 10px auto;
+  }
+
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+
+}
