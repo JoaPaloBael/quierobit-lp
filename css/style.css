@@ -10,7 +10,6 @@ $textoPrimario: #D0D0E7;
   margin: 0;
   padding: 0;
   text-decoration: none;
-  list-style: none;
   box-sizing: border-box;
   max-width: 100%;
   font-family: 'Montserrat', sans-serif;
@@ -18,7 +17,7 @@ $textoPrimario: #D0D0E7;
 
 main {
   padding-bottom: 1rem;
-  background-color: #111961;
+  background-color: #0D102C;
 }
 
 /* HEADER */
@@ -159,7 +158,7 @@ main {
 
 /*--------------------------------*/
 /*----------Seccion 1 -----------*/
-/*------------cards-------------*/
+/*----------infoCurso-----------*/
 
 .nombre-curso {
   padding: 0 30px;
@@ -213,153 +212,38 @@ main {
   /* position: absolute; */
 }
 
-.skill-card {
-  display: flex;
-  flex-direction: column;
-  max-width: 250px;
-  margin: 15px auto;
-  max-height: 360px;
-  background-color: aliceblue;
-  border-radius: 5px;
-  border: solid 4px #fff;
-
-}
-
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.skill-card:hover {
-  box-shadow: 0 14px 28px rgb(0 0 0 / 43%), 0 18px 18px rgb(0 0 0 / 42%);
-}
-
-.skill-card:hover .skill-card__header {
-  height: 40px;
-}
-
-.skill-card:hover .skill-card__header .skill-card__icon {
-  transform: translateX(-50%) translateY(-50%) scale(3);
-}
-
-.skill-card:hover .skill-card__body {
-  height: 432px
-}
-
-.skill-card:hover .skill-card__body .skill-card__knowledge li {
-  transform: translateX(0);
-  transition-timing-function: cubic-bezier(0, 1.5, 1, 1);
-  transition-duration: 0.5s;
-}
-
-.skill-card:hover .skill-card__body .skill-card__knowledge li:nth-child(1) {
-  transition-delay: 0.25s;
-}
-
-.skill-card:hover .skill-card__body .skill-card__knowledge li:nth-child(2) {
-  transition-delay: 0.5s;
-}
-
-.skill-card:hover .skill-card__body .skill-card__knowledge li:nth-child(3) {
-  transition-delay: 0.75s;
-}
-
-.skill-card:hover .skill-card__body .skill-card__knowledge li:nth-child(4) {
-  transition-delay: 1s;
-}
-
-.skill-card:hover .skill-card__body .skill-card__knowledge li:nth-child(5) {
-  transition-delay: 1.25s;
-}
-
-.skill-card:hover .skill-card__body .skill-card__knowledge li:nth-child(6) {
-  transition-delay: 1.5s;
-}
-
-.skill-card .skill-card__header {
-  position: relative;
-  background-color: #e8ecfd;
-  height: 160px;
-  transition: height 0.5s;
-  overflow: hidden;
-}
-
-.skill-card .skill-card__header .skill-card__icon {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateY(-50%) translateX(-50%);
-  display: block;
-  height: 293px;
-  transition: transform 0.5s;
-}
-
-.skill-card .skill-card__body {
-  height: 151px;
-  transition: height 0.5s;
-  overflow: hidden;
-}
-
-.skill-card .skill-card__body .skill-card__title {
-  font-size: 1.4em;
-  font-weight: 600;
-  text-transform: uppercase;
-  text-align: center;
-  padding: 10px;
-}
-
-.skill-card .skill-card__body .skill-card__duration {
-  color: #9E9E9E;
-  font-style: italic;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 10px;
-}
-
-.skill-card .skill-card__body .skill-card__knowledge {
-  margin-top: 10px;
-  color: #424242;
-  margin-left: 20px;
-}
-
-.skill-card .skill-card__body .skill-card__knowledge li {
-  margin-top: 5px;
-  transition-duration: 0;
-  transition-delay: 0.5s;
-  transform: translateX(-150%);
-}
 
 /*--------------------------------*/
 /*---------- Pagination ---------*/
 /*------------------------------*/
-.pagination{
-  max-width: 500px;
-  margin: 0 auto;
-}
+
+
 .pagination ul {
   display: flex;
   background-color: #FFFFFF;
   flex-direction: row;
   justify-content: space-evenly;
-  padding: 8px;
+  padding: 4px;
   border-radius: 50px;
 }
 
 .pagination ul li {
+  /*Tiene que matchear con el color de fondo de la section*/
+  color: #0D102C;
   list-style: none;
   line-height: 45px;
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   cursor: pointer;
   border-radius: 50%;
+  transition: all 0.3s ease;
 }
 
 .pagination ul li.num {
   height: 45px;
   width: 45px;
+  margin: 0 3px;
 }
 
 .pagination ul li.btn {
@@ -372,6 +256,7 @@ main {
 .pagination ul li.sig {
   border-radius: 5px 25px 25px 5px;
 }
+
 .pagination ul li.active,
 .pagination ul li.num:hover,
 .pagination ul li.btn:hover{
@@ -379,6 +264,41 @@ main {
   background-color: #0D102C;
 
 }
+
+/*--------------------------------*/
+/*---------- ]Info Curso ---------*/
+/*------------------------------*/
+
+#temario{
+  width: 390px;
+  margin: 0 auto;
+  margin-top: 45px;
+}
+.temario{
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  border-radius: 30px;
+  padding-top: 20px;
+}
+.temario-titulo{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.temario-titulo span  {
+  font-size: 25px;
+}
+
+.temario-lista{
+  list-style: disc;
+  margin-left: 35px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding-bottom: 30px;
+}
+
 
 /*--------------------------------*/
 /*---------- Formulario ---------*/
@@ -568,7 +488,7 @@ i.fab {
 /*----------Media Querys---------*/
 /*------------------------------*/
 
-@media (min-width: 800px) {
+@media (min-width: 750px) {
 
   /*Menú*/
   .logo {
@@ -605,6 +525,10 @@ i.fab {
   /*OPACIDAD*/
   .opacidad{
     top: 10vh;
+  }
+  /*TEMARIO*/
+  #temario{
+    width: 650px;
   }
 }
 
