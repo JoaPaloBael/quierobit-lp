@@ -63,8 +63,6 @@ main {
   display: none;
 }
 
-
-
 /*BANNER TEXT*/
 .banner-text {
   padding: 10px 30px;
@@ -266,7 +264,7 @@ main {
 }
 
 /*--------------------------------*/
-/*---------- ]Info Curso ---------*/
+/*---------- Info Curso ---------*/
 /*------------------------------*/
 
 #temario{
@@ -299,7 +297,10 @@ main {
   padding-bottom: 30px;
 }
 
-
+.temario-lista a, .temario-lista span{
+  color: #0B0D2A;
+  font-weight: 900;
+}
 /*--------------------------------*/
 /*---------- Formulario ---------*/
 /*------------------------------*/
@@ -307,7 +308,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 
 .form {
@@ -315,15 +316,15 @@ main {
   border-radius: 20px;
   box-sizing: border-box;
   padding: 20px;
-  width: 320px;
-  margin: 0 auto 2rem auto;
+  width: 390px;
+  margin: 2rem auto 2rem auto;
   padding-bottom: 2rem;
 }
 
 .title {
   color: #eee;
   font-family: sans-serif;
-  font-size: 36px;
+  font-size: 38px;
   font-weight: 600;
   margin-top: 30px;
 }
@@ -331,9 +332,11 @@ main {
 .subtitle {
   color: #eee;
   font-family: sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 600;
   margin-top: 10px;
+  text-align: center;
+  line-height: 1.6;
 }
 
 .seleccion {
@@ -351,15 +354,30 @@ main {
 .input-container {
   height: 50px;
   width: 100%;
+  margin-top: 5px;
+}
+.campoRequerido{
+  margin-top: 3rem;
+  color: rgb(153, 153, 153);
+  text-align: right;
 }
 
+.motivo{
+  font-size: 20px;
+  color: rgb(153, 153, 153);
+}
 .ic1 {
-  margin-top: 40px;
+  margin-top: 7px;
 }
 
 .ic2 {
   margin-top: 30px;
 }
+.ic3{
+
+  margin-top: 2rem;
+}
+
 
 .input {
   background-color: #303245;

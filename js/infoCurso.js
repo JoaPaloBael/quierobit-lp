@@ -13,21 +13,20 @@ num1.addEventListener('click', function () {
     <ul class="temario-lista">
         <li>Introducción y Breve historia del dinero</li>
         <li>Recomendaciones antes de comenzar</li>
-        <li>Criptomonedas ¿cualquiera puede aprender?</li>
+        <li>¿Cualquiera puede aprender?</li>
         <li>Bienvenidos a la disrupción: Bitcoin, una transformación fundamental del dinero </li>
         <li>¿Qué son las criptomonedas y cómo surgen? </li>
-        <li>Proyectos anteriores a Bitcoin </li>
         <li>Proyectos anteriores a Bitcoin</li>
-        <li>Por qué es el activo digital más importante del Siglo XXI, hablaremos de sus principales características y porqué deberíamos prestarle  especial atención.</li>
-        <li>Emisión monetaria de Bitcoin ¿Cómo se generan nuevos bitcoin? </li>
+        <li>Bitcoin: El activo digital más importante del Siglo XXI</li>
+        <li>¿Cómo se generan nuevos Bitcoin? </li>
         <li>Criptomillonarios y primeros usuarios.</li>
         <li>¿Es tarde para comenzar? proyección.</li>
         <li>Principales mitos respecto a criptomonedas</li>
         <li>Estafas ¿cómo prevenirlas? </li>
         <li>Bitcoin como reserva de valor</li>
-        <li>Tecnologías fundacionales de bitcoin</li>
-        <li>BONUS: Videos explicativos, pdf's, libros, acceso a comunidad @quierobit!</li>
-    </ul>
+        <li>Tecnologías fundacionales de Bitcoin</li>
+        <li><span>BONUS:</span> Videos explicativos, pdf's, libros, acceso a comunidad <a href="https://www.instagram.com/quierobit/">QuieroBit</a></li>
+</ul>
       `
 })
 /*2*/
@@ -40,18 +39,20 @@ num2.addEventListener('click', function () {
         <li>Descentralización y Mecanismos de consenso.</li>
         <li>Tipos de criptomonedas, su clasificación y usos.</li>
         <li>Fenomeno.com</li>
-        <li>Ethereum: las innovaciones tecnológicas de esta criptomoneda de segunda generación</li>
+        <li>Ethereum: Innovaciones tecnológicas de esta criptomoneda de 2da generación</li>
         <li>Cómo adquirir tus primeras criptomonedas paso a paso</li>
-        <li>Consejos útiles al momento de operar con criptomonedas </li>
         <li>Aspectos importantes a tener en cuenta al momento de invertir</li>
-        <li>Pasamos a la acción: Paso a paso como comprar nuestras primeras criptomonedas y movernos utilizar distintas herramientas y plataformas..</li>
+        <li>Pasamos a la acción: Cómo comprar primeras criptomonedas y utilizar distintas herramientas y plataformas.</li>
         <li>Transacciones con criptomonedas</li>
         <li>Errores comunes al comenzar a operar.</li>
         <li>Casos reales</li>
-        <li>BONUS:Tutoriales compra principales plataformas</li>
-        <li>Manejo ordenes de mercado</li>
-        <li>Glosario Cripto</li>
-        <li>Test para conocer tu perfil como inversor</li>
+        <li><span>BONUS:</span>
+            <ul>
+                <li>Manejo ordenes de mercado</li>
+                <li>Glosario Cripto</li>
+                <li>Test para conocer tu perfil como inversor</li>
+            </ul>
+        </li>
     </ul>
       `
 })
@@ -74,10 +75,14 @@ num3.addEventListener('click', function () {
         <li>Tendencias en latinoamérica  </li>
         <li>Cómo hacer networking</li>
         <li>Aspecto importante: tomar acción.</li>
-        <li>BONUS:Libro estrategía trading</li>
-        <li>wallets recomendadas</li>
-        <li>glosario cripto</li>
-        <li>Excel para registro de operaciones</li>
+        <li><span>BONUS:</span>
+            <ul>
+                <li>Libro estrategía trading</li>
+                <li>wallets recomendadas</li>
+                <li>glosario cripto</li>
+                <li>Excel para registro de operaciones</li>
+            </ul>
+        </li>
     </ul>
       `
 })
@@ -94,10 +99,13 @@ num4.addEventListener('click', function () {
         <li>Alternativas para Generar ingresos pasivos.</li>
         <li>Herramientas útiles disponibles en el mercado</li>
         <li>Proyectos rentables oportunidades</li>
-        <li>BONUS: MATERIAL PARA PROFUNDIZAR</li>
-        <li>ACCESO A BIBLIOTECA CRIPTO</li>
-        <li>HERRAMIENTAS Y CONTENIDO RECOMENDADO</li>
-
+        <li><span>BONUS:</span>
+            <ul>
+                <li>Material para profundizar</li>
+                <li>Acceso a bibliotecla cripto</li>
+                <li>Herramientas y contenido recomendado</li>
+            </ul>
+        </li>
     </ul>
       `
 })
