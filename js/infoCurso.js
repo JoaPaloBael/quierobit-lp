@@ -5,6 +5,7 @@ let num1 = document.querySelector('.num1');
 let num2 = document.querySelector('.num2');
 let num3 = document.querySelector('.num3');
 let num4 = document.querySelector('.num4');
+let num5 = document.querySelector('.num5');
 /*1*/
 num1.addEventListener('click', function () {
     temario.innerHTML =
@@ -94,16 +95,35 @@ num4.addEventListener('click', function () {
     <h3 class="temario-titulo"><span>Bloque 4:</span> Tecnología en constante evolución</h3>
     <ul class="temario-lista">
         <li>Veremos aplicaciones casos de uso, aplicaciones, iniciativas y proyectos muy interesantes que dan uso de esta tecnología.</li>
-        <li>El banco más seguro del mundo (está en tu navegador).</li>
-        <li>3 indicadores que te permitirán entender cuándo es el mejor momento de comprar o vender tus criptomonedas Una estrategia Simple y eficaz.</li>
-        <li>Alternativas para Generar ingresos pasivos.</li>
+        <li>Wallets ¿Cúal elegir?</li>
+        <li>Indicadores que te permitirán entender cuándo es el mejor momento de comprar o vender tus criptomonedas. Una estrategia Simple y eficaz.</li>
+        <li>Alternativas para generar ingresos pasivos.</li>
+        <li>Finanzas descentralizadas DEFI.</li>
         <li>Herramientas útiles disponibles en el mercado</li>
-        <li>Proyectos rentables oportunidades</li>
         <li><span>BONUS:</span>
             <ul>
                 <li>Material para profundizar</li>
                 <li>Acceso a bibliotecla cripto</li>
                 <li>Herramientas y contenido recomendado</li>
+            </ul>
+        </li>
+    </ul>
+      `
+})
+
+/*5*/
+num5.addEventListener('click', function () {
+    temario.innerHTML =
+        `
+    <h3 class="temario-titulo"><span>Bloque 5:</span> Encuentros con Invitados especiales</h3>
+    <ul class="temario-lista">
+        <li>Contaremos con la presencia de invitados especiales: traders, emprendedores, comerciantes, artistas, programadores, educadores, entusiastas, que compartirán sus conocimientos con nosotros. Haremos encuentros con personas que tienen proyectos relacionados a las criptomonedas, aprenderemos de su experiencia, perspectiva y de sus distintos puntos de vista acerca del futuro del ecosistema cripto. Haremos preguntas, despejaremos dudas y hablaremos sobre distintos proyectos, oportunidades, y perspectivas a futuro</li>
+        <li>
+        <span>BONUS:</span>
+            <ul>
+                <li>Daremos acceso a una comunidad privada dónde compartimos información y brindamos apoyo, estableciendo así una red de contactos saludable que los ayude a crecer y dónde puedas despejar tus dudas y consultas!</li>
+                <li>Biblioteca Cripto  y newsletter mensual para que estés al tanto de información relevante en el mercado de las criptomonedas!</li>
+                <li>1 mes gratis en el grupo de Alertas de trading #QuieroVip!</li>
             </ul>
         </li>
     </ul>
