@@ -128,6 +128,11 @@ main {
   transition: .5s;
 }
 
+#mc_embed_signup .button {
+  line-height: 0;
+  width: 60% !important;
+  margin: 0 auto;
+}
 
 /*VIDEO FONDO*/
 #video {
