@@ -27,7 +27,7 @@ num1.addEventListener('click', function () {
         <li>Principales mitos </li>
         <li>Estafas ¿cómo prevenirlas? </li>
         <li>Bitcoin como reserva de valor</li>
-        <li>Tecnologías fndacionales de bitcoin</li>
+        <li>Tecnologías fundacionales de Bitcoin</li>
     </ul>
       `
 })
