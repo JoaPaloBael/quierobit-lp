@@ -1,0 +1,47 @@
+#temario{
+    width: 390px;
+    margin: 0 auto;
+    margin-top: 45px;
+  }
+  .temario{
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    border-radius: 30px;
+    padding-top: 20px;
+  }
+  .temario-titulo{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .temario-titulo span  {
+    font-size: 25px;
+  }
+
+  .temario-lista{
+    list-style: disc;
+    margin: .5rem .5rem .5rem 2.5rem;
+    padding: 1rem 2rem 2rem 3rem;
+  }
+
+  .temario-lista li{
+    margin-bottom: .5rem;
+  }
+  .temario-sublista{
+    margin: .5rem .5rem 1rem 2.5rem ;
+  }
+
+  .temario-lista a, .temario-lista span{
+    color: #0B0D2A;
+    font-weight: 900;
+  }
+  .texto-centrado{
+    text-align: center;
+  }
+  .parrafo{
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 2rem;
+  }

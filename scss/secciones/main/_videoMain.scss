@@ -1,0 +1,24 @@
+/*VIDEO FONDO*/
+#video {
+    position: fixed;
+    min-width: 350vw;
+    z-index: -100;
+    background-color: #030414e0;
+    background-size: cover;
+    transition: 3s opacity;
+  }
+
+  .opacidad {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 12vh;
+    left: 0;
+    background-color: #080324;
+    opacity: .85;
+    z-index: -1;
+  }
+
+  .opacidad.paddingTop {
+    margin-top: 37vh;
+  }

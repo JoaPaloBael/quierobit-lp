@@ -1,0 +1,55 @@
+.pagination{
+    margin-top: 1rem;
+  }
+
+  .pagination ul {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 4px;
+    border-radius: 50px;
+  }
+
+  .pagination ul li {
+    /*Tiene que matchear con el color de fondo de la section*/
+    color: #0D102C;
+    list-style: none;
+    line-height: 45px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+  }
+
+  .pagination ul li.num {
+    height: 45px;
+    width: 45px;
+    margin: 0 3px;
+  }
+
+  .pagination ul li.btn {
+    background-color: #FFFFFF;
+    padding: 0 20px;
+  }
+  .pagination ul li.prev {
+    border-radius: 25px 5px 5px 25px;
+  }
+  .pagination ul li.sig {
+    border-radius: 5px 25px 25px 5px;
+  }
+
+  .pagination ul li.active,
+  .pagination ul li.num:hover,
+  .pagination ul li.btn:hover{
+    color: white;
+    background-color: #0D102C;
+
+  }
+  .pagination ul li.bonus:hover{
+    width: 5rem;
+      border-radius: 54%;
+  }

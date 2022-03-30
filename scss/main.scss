@@ -1,0 +1,36 @@
+//Variables
+@import './variables/variables';
+
+//Global
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-family: $fuentePrincipal;
+  }
+
+  //Header - Navbar
+  @import './secciones/header/header';
+
+  //Main - Video + Info
+  @import './secciones/main/videoMain';
+  @import './secciones/main/mainGlobal';
+
+  //Sección 1 - Info curso
+  @import './secciones/main/seccion-1/infoCurso';
+
+  //Seccion 2 - Temario
+  @import './secciones/main/seccion-2/temario';
+  @import './secciones/main/seccion-2/pagination';
+
+
+  //Formulario
+  @import './secciones/main/formulario/formulario';
+
+  //Footer
+  @import './secciones/footer/footer';
+
+  //MediaQueys
+  @import './variables/mediaQuerys';

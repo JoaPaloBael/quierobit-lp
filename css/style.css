@@ -1,37 +1,20 @@
-/*Variables
-$fondoPrimario: #0B0D2A;
-$textoPrimario: #D0D0E7;
-  color: #0e31b3;
-*/
-
-/*font-family: 'Montserrat', sans-serif;*/
-
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
   text-decoration: none;
   box-sizing: border-box;
   max-width: 100%;
-  font-family: 'Montserrat', sans-serif;
-}
-
-main {
-  padding-bottom: 1rem;
-  background-color: #0D102C;
-}
-
-/* HEADER */
+  font-family: "Montserrat", sans-serif; }
 
 .header {
   width: 100%;
-  height: 80vh;
-}
+  height: 80vh; }
 
 /*NAV*/
 .logo {
   width: 140px;
-  margin-left: 20px;
-}
+  margin-left: 20px; }
 
 .topnav {
   overflow: hidden;
@@ -39,8 +22,7 @@ main {
   position: sticky;
   top: 0;
   left: 0;
-  width: 100%;
-}
+  width: 100%; }
 
 .topnav a {
   float: left;
@@ -50,27 +32,21 @@ main {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  height: 10vh;
-}
-
+  height: 10vh; }
 
 .link:hover {
   background-color: #359df3;
-  color: white;
-}
+  color: white; }
 
 .topnav .icon {
-  display: none;
-}
+  display: none; }
 
 /*BANNER TEXT*/
 .banner-text {
   padding: 10px 30px;
   margin-top: 50px;
   text-align: center;
-  color: white;
-
-}
+  color: white; }
 
 .banner-text h1 {
   font-size: 26px;
@@ -78,25 +54,21 @@ main {
   font-weight: 500;
   margin-bottom: 30px;
   max-width: 880px;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 
 .banner-text span {
-  font-weight: 900;
-}
+  font-weight: 900; }
 
 .banner-text h2 {
   font-size: 16px;
   font-weight: 300;
-  margin-bottom: 30px;
-}
+  margin-bottom: 30px; }
 
 .banner-text div {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-}
+  justify-content: center; }
 
 .button1 {
   padding: 10px 10px;
@@ -104,14 +76,12 @@ main {
   color: #FFFFFF;
   border-radius: 5px;
   width: 185px;
-  margin: 10px;
-}
+  margin: 10px; }
 
 .button1:hover {
   background-color: #FFFFFF;
   color: #0e31b3;
-  transition: .5s;
-}
+  transition: .5s; }
 
 .button2 {
   padding: 10px 30px;
@@ -119,20 +89,17 @@ main {
   color: #0e31b3;
   border-radius: 5px;
   width: 185px;
-  margin: 10px;
-}
+  margin: 10px; }
 
 .button2:hover {
   background-color: #0e31b3;
   color: #FFFFFF;
-  transition: .5s;
-}
+  transition: .5s; }
 
 #mc_embed_signup .button {
   line-height: 0;
   width: 60% !important;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 
 /*VIDEO FONDO*/
 #video {
@@ -141,8 +108,7 @@ main {
   z-index: -100;
   background-color: #030414e0;
   background-size: cover;
-  transition: 3s opacity;
-}
+  transition: 3s opacity; }
 
 .opacidad {
   height: 100%;
@@ -152,45 +118,37 @@ main {
   left: 0;
   background-color: #080324;
   opacity: .85;
-  z-index: -1;
-}
+  z-index: -1; }
 
 .opacidad.paddingTop {
-  margin-top: 37vh;
-}
+  margin-top: 37vh; }
 
-/*--------------------------------*/
-/*----------Seccion 1 -----------*/
-/*----------infoCurso-----------*/
+main {
+  padding-bottom: 1rem;
+  background-color: #0D102C; }
 
 .nombre-curso {
   padding: 0 30px;
   margin: 50px auto 0 auto;
   text-align: center;
   color: white;
-  padding-bottom: 0;
-}
+  padding-bottom: 0; }
 
 .nombre-curso h2 {
   font-weight: 300;
   display: flex;
-  flex-direction: column;
-}
+  flex-direction: column; }
 
 .nombre-curso h2 span {
-
-  font-weight: 900;
-}
+  font-weight: 900; }
 
 .nombre-curso p {
   margin: 30px 0;
   font-weight: 100;
-  font-size: 1.3rem;
-}
+  font-size: 1.3rem; }
 
 .nombre-curso h3 {
-  font-weight: 600;
-}
+  font-weight: 600; }
 
 .btn-descarga {
   padding: 10px 30px;
@@ -199,14 +157,12 @@ main {
   border-radius: 5px;
   width: 261px;
   margin: 10px auto;
-  text-align: center;
-}
+  text-align: center; }
 
 .btn-descarga:hover {
   background-color: #0e31b3;
   color: #FFFFFF;
-  transition: .5s;
-}
+  transition: .5s; }
 
 #infoCurso {
   display: flex;
@@ -214,16 +170,54 @@ main {
   flex-wrap: wrap;
   background-color: #0D102C;
   width: 100vw;
-  /* position: absolute; */
-}
+  /* position: absolute; */ }
 
+#temario {
+  width: 390px;
+  margin: 0 auto;
+  margin-top: 45px; }
 
-/*--------------------------------*/
-/*---------- Pagination ---------*/
-/*------------------------------*/
-.pagination{
-  margin-top: 1rem;
-}
+.temario {
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  border-radius: 30px;
+  padding-top: 20px; }
+
+.temario-titulo {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto; }
+
+.temario-titulo span {
+  font-size: 25px; }
+
+.temario-lista {
+  list-style: disc;
+  margin: .5rem .5rem .5rem 2.5rem;
+  padding: 1rem 2rem 2rem 3rem; }
+
+.temario-lista li {
+  margin-bottom: .5rem; }
+
+.temario-sublista {
+  margin: .5rem .5rem 1rem 2.5rem; }
+
+.temario-lista a, .temario-lista span {
+  color: #0B0D2A;
+  font-weight: 900; }
+
+.texto-centrado {
+  text-align: center; }
+
+.parrafo {
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 2rem; }
+
+.pagination {
+  margin-top: 1rem; }
 
 .pagination ul {
   display: flex;
@@ -232,8 +226,7 @@ main {
   flex-direction: row;
   justify-content: space-evenly;
   padding: 4px;
-  border-radius: 50px;
-}
+  border-radius: 50px; }
 
 .pagination ul li {
   /*Tiene que matchear con el color de fondo de la section*/
@@ -245,104 +238,45 @@ main {
   font-weight: 500;
   cursor: pointer;
   border-radius: 50%;
-  transition: all 0.3s ease;
-}
+  transition: all 0.3s ease; }
 
 .pagination ul li.num {
   height: 45px;
   width: 45px;
-  margin: 0 3px;
-}
+  margin: 0 3px; }
 
 .pagination ul li.btn {
   background-color: #FFFFFF;
-  padding: 0 20px;
-}
+  padding: 0 20px; }
+
 .pagination ul li.prev {
-  border-radius: 25px 5px 5px 25px;
-}
+  border-radius: 25px 5px 5px 25px; }
+
 .pagination ul li.sig {
-  border-radius: 5px 25px 25px 5px;
-}
+  border-radius: 5px 25px 25px 5px; }
 
 .pagination ul li.active,
 .pagination ul li.num:hover,
-.pagination ul li.btn:hover{
+.pagination ul li.btn:hover {
   color: white;
-  background-color: #0D102C;
+  background-color: #0D102C; }
 
-}
-.pagination ul li.bonus:hover{
+.pagination ul li.bonus:hover {
   width: 5rem;
-    border-radius: 54%;
-}
+  border-radius: 54%; }
 
-/*--------------------------------*/
-/*---------- Info Curso ---------*/
-/*------------------------------*/
-
-#temario{
-  width: 390px;
-  margin: 0 auto;
-  margin-top: 45px;
-}
-.temario{
-  background-color: #FFFFFF;
-  margin: 0 auto;
-  border-radius: 30px;
-  padding-top: 20px;
-}
-.temario-titulo{
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  max-width: 500px;
-  margin: 0 auto;
-}
-.temario-titulo span  {
-  font-size: 25px;
-}
-
-.temario-lista{
-  list-style: disc;
-  margin: .5rem .5rem .5rem 2.5rem;
-  padding: 1rem 2rem 2rem 3rem;
-}
-
-.temario-lista li{
-  margin-bottom: .5rem;
-}
-.temario-sublista{
-  margin: .5rem .5rem 1rem 2.5rem ;
-}
-
-.temario-lista a, .temario-lista span{
-  color: #0B0D2A;
-  font-weight: 900;
-}
-.texto-centrado{
-  text-align: center;
-}
-.parrafo{
-  max-width: 550px;
-  margin: 0 auto;
-  padding: 2rem;
-}
-/*--------------------------------*/
-/*---------- Formulario ---------*/
-/*------------------------------*/
 #formInscripcion {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 2rem;
-}
-.response{
+  margin-top: 2rem; }
+
+.response {
   color: #808080;
   font-size: 33px;
   text-align: center;
-  margin-top: 2rem;
-}
+  margin-top: 2rem; }
+
 .form {
   background-color: #15172b;
   border-radius: 20px;
@@ -350,14 +284,13 @@ main {
   padding: 20px;
   width: 390px;
   margin: 2rem auto 2rem auto;
-  padding-bottom: 2rem;
-}
+  padding-bottom: 2rem; }
 
-.form label{
-  color: white;
-}
+.form label {
+  color: white; }
+
 #mc_embed_signup form {
-  position: static;}
+  position: static; }
 
 .title {
   color: #eee;
@@ -365,8 +298,7 @@ main {
   font-size: 38px;
   font-weight: 600;
   margin-top: 30px;
-  text-align: center;
-}
+  text-align: center; }
 
 .subtitle {
   color: #eee;
@@ -375,48 +307,41 @@ main {
   font-weight: 600;
   margin-top: 10px;
   text-align: center;
-  line-height: 1.6;
-}
+  line-height: 1.6; }
 
 .seleccion {
   background-color: #303245;
   border-radius: 12px;
   border: 0;
   box-sizing: border-box;
-  color: rgb(165, 157, 157);
+  color: #a59d9d;
   font-size: 18px;
   outline: 0;
   padding: 0;
-  width: 100%;
-}
+  width: 100%; }
 
 .input-container {
   height: 50px;
   width: 100%;
-  margin-top: 5px;
-}
-.campoRequerido{
-  margin-top: 3rem;
-  color: rgb(153, 153, 153);
-  text-align: right;
-}
+  margin-top: 5px; }
 
-.motivo{
+.campoRequerido {
+  margin-top: 3rem;
+  color: #999999;
+  text-align: right; }
+
+.motivo {
   font-size: 20px;
-  color: rgb(153, 153, 153);
-}
+  color: #999999; }
+
 .ic1 {
-  margin-top: 7px;
-}
+  margin-top: 7px; }
 
 .ic2 {
-  margin-top: 30px;
-}
-.ic3{
+  margin-top: 30px; }
 
-  margin-top: 2rem;
-}
-
+.ic3 {
+  margin-top: 2rem; }
 
 .input {
   background-color: #303245;
@@ -428,8 +353,7 @@ main {
   height: 100%;
   outline: 0;
   padding: 4px 20px 0;
-  width: 100%;
-}
+  width: 100%; }
 
 .cut {
   background-color: #15172b;
@@ -440,17 +364,14 @@ main {
   top: -20px;
   transform: translateY(0);
   transition: transform 200ms;
-  width: 76px;
-}
+  width: 76px; }
 
 .cut-short {
-  width: 50px;
-}
+  width: 50px; }
 
-.input:focus~.cut,
-.input:not(:placeholder-shown)~.cut {
-  transform: translateY(8px);
-}
+.input:focus ~ .cut,
+.input:not(:placeholder-shown) ~ .cut {
+  transform: translateY(8px); }
 
 .placeholder {
   color: #65657b;
@@ -461,21 +382,17 @@ main {
   position: absolute;
   transform-origin: 0 50%;
   transition: transform 200ms, color 200ms;
-  top: 20px;
-}
+  top: 20px; }
 
-.input:focus~.placeholder,
-.input:not(:placeholder-shown)~.placeholder {
-  transform: translateY(-30px) translateX(10px) scale(0.75);
-}
+.input:focus ~ .placeholder,
+.input:not(:placeholder-shown) ~ .placeholder {
+  transform: translateY(-30px) translateX(10px) scale(0.75); }
 
-.input:not(:placeholder-shown)~.placeholder {
-  color: #808097;
-}
+.input:not(:placeholder-shown) ~ .placeholder {
+  color: #808097; }
 
-.input:focus~.placeholder {
-  color: #dc2f55;
-}
+.input:focus ~ .placeholder {
+  color: #dc2f55; }
 
 .submit {
   background-color: #08d;
@@ -489,135 +406,88 @@ main {
   margin-top: 38px;
   outline: 0;
   text-align: center;
-  width: 100%;
-}
+  width: 100%; }
 
 .submit:active {
-  background-color: #06b;
-}
-
+  background-color: #06b; }
 
 #mc_embed_signup .mc-field-group, #mc_embed_signup .asterisk {
-  position: inherit;
-
-}
-
-/*--------------------------------*/
-/*----------Footer ---------------*/
-/*------------------------------*/
+  position: inherit; }
 
 footer {
   height: 3vh;
   color: white;
   text-align: center;
-  margin: 10px auto;
-}
+  margin: 10px auto; }
 
 .redes {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  font-size: 25px;
-}
+  font-size: 25px; }
 
 .contacto {
   padding: 0 30px;
   margin-top: 50px;
   text-align: center;
-  color: #fff;
-}
+  color: #fff; }
 
 .contacto h3 {
   font-size: 30px;
-  margin: 30px auto;
-}
+  margin: 30px auto; }
 
 i.fab {
   padding: 0 38px;
   margin-bottom: 30px;
-  font-size: 50px;
-}
+  font-size: 50px; }
 
 .contacto a {
-  color: white;
-}
+  color: white; }
 
 .displayNone {
-  display: none !important;
-}
-
-/*--------------------------------*/
-/*----------Media Querys---------*/
-/*------------------------------*/
+  display: none !important; }
 
 @media (min-width: 750px) {
-
   /*Menú*/
   .logo {
-    margin-left: 30px;
-  }
+    margin-left: 30px; }
   .banner-text h1 {
     font-size: 70px;
-    margin-bottom: 30px;
-  }
+    margin-bottom: 30px; }
   .banner-text {
-    font-size: 20px;
-  }
+    font-size: 20px; }
   .nombre-curso {
-    max-width: 800px;
-  }
-
+    max-width: 800px; }
   .cards {
-    margin: 5rem 0;
-  }
-
+    margin: 5rem 0; }
   .btn-descarga {
-    margin: 2rem auto 2rem auto;
-  }
+    margin: 2rem auto 2rem auto; }
   /*VIDEO*/
-  #video{
-    min-width: 170vw;
-  }
-
+  #video {
+    min-width: 170vw; }
   /*FORM*/
-  .form{
-    width: 600px;
-  }
-
+  .form {
+    width: 600px; }
   /*OPACIDAD*/
-  .opacidad{
-    top: 10vh;
-  }
+  .opacidad {
+    top: 10vh; }
   /*TEMARIO*/
-  #temario{
-    width: 650px;
-  }
-}
-
+  #temario {
+    width: 650px; } }
 
 /* Mobile last - NavBar*/
 @media (max-width: 800px) {
   .topnav a:not(:first-child) {
-    display: none;
-  }
-
+    display: none; }
   .topnav a.icon {
     float: right;
     display: block;
-    margin: 10px auto;
-  }
-
+    margin: 10px auto; }
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
-    top: 0;
-  }
-
+    top: 0; }
   .topnav.responsive a {
     float: none;
     display: block;
-    text-align: left;
-  }
-
-
-}
+    text-align: left; } }
