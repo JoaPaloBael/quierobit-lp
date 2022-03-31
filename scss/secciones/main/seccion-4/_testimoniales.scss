@@ -17,7 +17,6 @@
     border-radius: 5px;
     border-top: 5px solid #0e31b3;
     margin: 1rem;
-    display: none;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
     transition: 0.07s;
 
@@ -75,7 +74,7 @@
 
 
 //TESTIMONIAL PAGINATION
-.testiPagination-sm{
+.testiPagination{
     background-color: #fff;
     display: flex;
     justify-content: center;
@@ -95,28 +94,28 @@
         }
     }
 }
+.testimonials-xl, .testiPagination-xl{
+    display: none;
+}
 
 
 //Mobile last
-@media (max-width: 830px) {
-    .sm.testimonial{
-        display: block;
-        &:hover{
-            transition: 1s;
-    left: 0;
-        }
-    }
-}
+
+
 
 @media (min-width: 831px) {
-    .testimonial{
-        display: block;
-        &:hover {
+    .testimonials-sm, .testiPagination-sm{
+        display: none;
+    }
+    .testimonials-xl, .testiPagination-xl{
+        display: flex;
+    }
+    .testimonial:hover {
             box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
             transform: scale(101%);
             transition: 0.07s;
         }
-    }
+
     .testimonial:hover p {
         font-weight: bolder;
         color: black;
