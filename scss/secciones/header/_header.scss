@@ -17,6 +17,8 @@
     left: 0;
     width: 100%;
     z-index: 10;
+    display: flex;
+    justify-content: space-between;
   }
 
   .topnav a {
@@ -29,6 +31,19 @@
     font-size: 17px;
     height: 10vh;
   }
+
+  .menu{
+    display: flex;
+    list-style: none;
+  }
+
+  .subMenuCursos{
+    display: none;
+  }
+  #myTopnav ul li:hover > ul {
+    display:block;
+  }
+
 
 
   .link:hover {
