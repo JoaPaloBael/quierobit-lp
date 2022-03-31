@@ -8,56 +8,31 @@
   font-family: "Montserrat", sans-serif; }
 
 .header {
-  width: 100%;
-  height: 80vh; }
+  width: 100%; }
 
 /*NAV*/
-.logo {
-  width: 140px;
-  margin-left: 20px; }
+.dropdown-menu {
+  min-width: 16rem; }
 
-.topnav {
-  overflow: hidden;
-  background-color: #0B0D2A;
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end; }
+
+.navbar-brand img {
+  max-width: 150px; }
+
+.navbar {
+  background-color: #0D102C;
   position: sticky;
-  top: 0;
-  left: 0;
   width: 100%;
-  z-index: 10;
-  display: flex;
-  justify-content: space-between; }
+  top: 0;
+  z-index: 10; }
 
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  height: 10vh; }
-
-.menu {
-  display: flex;
-  list-style: none; }
-
-.subMenuCursos {
-  display: none; }
-
-#myTopnav ul li:hover > ul {
-  display: block; }
-
-.link:hover {
-  background-color: #359df3;
+.nav-link, .nav-link:focus, .nav-link:hover, .bi {
   color: white; }
-
-.topnav .icon {
-  display: none; }
 
 /*BANNER TEXT*/
 .banner-text {
   padding: 10px 30px;
-  margin-top: 50px;
   text-align: center;
   color: white; }
 
@@ -89,7 +64,8 @@
   color: #FFFFFF;
   border-radius: 5px;
   width: 185px;
-  margin: 10px; }
+  margin: 10px;
+  text-decoration: none; }
 
 .button1:hover {
   background-color: #FFFFFF;
@@ -102,17 +78,13 @@
   color: #0e31b3;
   border-radius: 5px;
   width: 185px;
-  margin: 10px; }
+  margin: 10px;
+  text-decoration: none; }
 
 .button2:hover {
   background-color: #0e31b3;
   color: #FFFFFF;
   transition: .5s; }
-
-#mc_embed_signup .button {
-  line-height: 0;
-  width: 60% !important;
-  margin: 0 auto; }
 
 /*VIDEO FONDO*/
 #video {
@@ -124,10 +96,10 @@
   transition: 3s opacity; }
 
 .opacidad {
-  height: 100%;
+  height: 110%;
   width: 100%;
   position: absolute;
-  top: 12vh;
+  top: 0vh;
   left: 0;
   background-color: #080324;
   opacity: .85;
@@ -204,7 +176,8 @@ main {
   margin: 0 auto; }
 
 .temario-titulo span {
-  font-size: 25px; }
+  font-size: 25px;
+  font-weight: 900; }
 
 .temario-lista {
   list-style: disc;
@@ -230,7 +203,8 @@ main {
   padding: 2rem; }
 
 .pagination {
-  margin-top: 1rem; }
+  margin-top: 1rem;
+  display: block; }
 
 .pagination ul {
   display: flex;
@@ -331,8 +305,10 @@ main {
 .testimonial h4, .testimonial a {
   font-weight: 400;
   margin: 0;
-  opacity: 0.5;
-  color: #9e9e9e; }
+  opacity: 0.8;
+  color: #4c4949;
+  text-decoration: none;
+  font-size: 16px; }
 
 .testimonial blockquote {
   font-style: italic;
@@ -523,6 +499,11 @@ main {
 #mc_embed_signup .mc-field-group, #mc_embed_signup .asterisk {
   position: inherit; }
 
+#mc_embed_signup .button {
+  line-height: 0;
+  width: 60% !important;
+  margin: 0 auto; }
+
 footer {
   height: 3vh;
   color: white;
@@ -577,9 +558,6 @@ i.fab {
   /*FORM*/
   .form {
     width: 600px; }
-  /*OPACIDAD*/
-  .opacidad {
-    top: 10vh; }
   /*TEMARIO*/
   #temario {
     width: 650px; } }
