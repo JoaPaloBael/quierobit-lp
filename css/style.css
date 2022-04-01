@@ -157,7 +157,7 @@ main {
   width: 100vw;
   /* position: absolute; */ }
 
-#temario {
+#temario, #temarioTrading {
   width: 390px;
   margin: 0 auto;
   margin-top: 45px; }
@@ -349,6 +349,95 @@ main {
     font-weight: bolder;
     color: black;
     transition: 0s; } }
+
+.ilustracion {
+  max-height: 350px; }
+
+.trader-img {
+  max-height: 550px;
+  padding: 2rem; }
+
+.quienesSomosCards {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem; }
+  .quienesSomosCards .juanCintioli p {
+    font-size: 1rem; }
+  .quienesSomosCards article {
+    width: 350px;
+    background-color: rgba(14, 50, 179, 0.18);
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: .5rem; }
+    .quienesSomosCards article:hover {
+      box-shadow: 10px 10px rgba(0, 0, 0, 0.198); }
+    .quienesSomosCards article .quienesSomosImg {
+      max-width: 200px;
+      border-radius: 50%;
+      margin: .5rem;
+      border: solid 8px #0D102C; }
+    .quienesSomosCards article h3 {
+      font-size: 1.4rem; }
+    .quienesSomosCards article p {
+      margin: 0; }
+
+.btn-modal {
+  margin: 1rem;
+  background-color: white;
+  color: #0D102C; }
+
+.queVeremos {
+  list-style: none; }
+
+.beneficiosPreinscripcion li {
+  list-style: none; }
+
+.tachado {
+  text-decoration: line-through; }
+
+#metodoDePago {
+  margin: 1rem;
+  padding: .5rem;
+  background-color: rgba(14, 50, 179, 0.18); }
+  #metodoDePago .metodosDePago {
+    max-width: 100%;
+    justify-content: space-evenly; }
+    #metodoDePago .metodosDePago .losMetodos {
+      display: flex;
+      justify-content: space-between; }
+      #metodoDePago .metodosDePago .losMetodos div a img {
+        max-height: 75px;
+        margin: 1rem; }
+      #metodoDePago .metodosDePago .losMetodos .mercadoPago,
+      #metodoDePago .metodosDePago .losMetodos .binancePay,
+      #metodoDePago .metodosDePago .losMetodos .payPal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(143, 143, 143, 0.604);
+        margin: 1rem;
+        border-radius: 1rem;
+        justify-content: space-between;
+        padding: 1rem; }
+        #metodoDePago .metodosDePago .losMetodos .mercadoPago p,
+        #metodoDePago .metodosDePago .losMetodos .binancePay p,
+        #metodoDePago .metodosDePago .losMetodos .payPal p {
+          margin: 0;
+          font-size: 10.3px; }
+
+.fa-whatsapp {
+  color: green;
+  font-size: 35px;
+  margin: 1rem;
+  font-weight: bold; }
+
+@media (max-width: 650px) {
+  .quienesSomosCards {
+    flex-direction: column; } }
+
+@media (max-width: 880px) {
+  #metodoDePago .metodosDePago .losMetodos {
+    flex-direction: column; } }
 
 #formInscripcion {
   display: flex;
@@ -559,7 +648,7 @@ i.fab {
   .form {
     width: 600px; }
   /*TEMARIO*/
-  #temario {
+  #temario, #temarioTrading {
     width: 650px; } }
 
 /* Mobile last - NavBar*/

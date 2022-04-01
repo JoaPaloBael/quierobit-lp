@@ -1,4 +1,3 @@
-/*Agregar clase active*/
 /*Cambiar los bloques de contenido*/
 let temario = document.querySelector('.temario');
 let num1 = document.querySelector('.num1');
