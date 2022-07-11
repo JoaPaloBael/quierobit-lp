@@ -40,9 +40,9 @@
 
         .losMetodos {
             display: flex;
-            justify-content: space-between;
-
+            justify-content: space-evenly;
             div {
+                max-width: 250px;
                 a {
                     img {
                         max-height: 75px;

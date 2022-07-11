@@ -155,9 +155,15 @@ main {
 }
 
 .nombre-curso p {
-  margin: 12px 0;
+  margin: 12px auto;
   font-weight: 100;
   font-size: 0.8rem;
+  max-width: 600px;
+}
+
+.nombre-curso h6 {
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .nombre-curso h3 {
@@ -214,6 +220,13 @@ main {
 .temario-titulo span {
   font-size: 1rem;
   font-weight: 900;
+}
+
+.temario-lista .tachado {
+  text-decoration: line-through;
+  -webkit-text-decoration-color: black;
+          text-decoration-color: black;
+  color: gray;
 }
 
 .temario-lista {
@@ -543,7 +556,10 @@ main {
 }
 #metodoDePago .metodosDePago .losMetodos {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+}
+#metodoDePago .metodosDePago .losMetodos div {
+  max-width: 250px;
 }
 #metodoDePago .metodosDePago .losMetodos div a img {
   max-height: 75px;

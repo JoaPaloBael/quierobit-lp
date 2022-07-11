@@ -21,6 +21,12 @@
     font-size: 1rem;
     font-weight: 900;
   }
+  .temario-lista .tachado{
+    text-decoration:line-through;
+    text-decoration-color: black ;
+    color: gray;
+
+  }
 
   .temario-lista{
     list-style: disc;
