@@ -15,9 +15,10 @@
     flex-direction: column;
     max-width: 500px;
     margin: 0 auto;
+    font-size: 0.8rem;
   }
   .temario-titulo span  {
-    font-size: 25px;
+    font-size: 1rem;
     font-weight: 900;
   }
 
@@ -25,6 +26,7 @@
     list-style: disc;
     margin: .5rem .5rem .5rem 2.5rem;
     padding: 1rem 2rem 2rem 3rem;
+    font-size: 0.6rem;
   }
 
   .temario-lista li{
