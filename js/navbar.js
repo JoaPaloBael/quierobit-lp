@@ -1,4 +1,5 @@
 let menuBtn = document.querySelector('#menuBtn');
+console.log(menuBtn);
 
 menuBtn.addEventListener('click', function () {
   function navBar() {

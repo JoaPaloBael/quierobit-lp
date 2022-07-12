@@ -1,7 +1,10 @@
 /*Cambiar los bloques de contenido*/
 let temario = document.querySelector('.temario');
+console.log(temario);
 let num1 = document.querySelector('.num1');
+console.log(num1);
 let bonus = document.querySelector('.bonus');
+console.log(bonus);
 /*1*/
 num1.addEventListener('click', function () {
     temario.innerHTML =
