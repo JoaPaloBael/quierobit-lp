@@ -2,7 +2,7 @@
 @import './variables/variables';
 
 //Global
-* {
+*, p {
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -11,21 +11,23 @@
     font-family: $fuentePrincipal;
   }
 
-  //Header - Navbar
-  @import './secciones/header/header';
+  // Navbar
+  @import './secciones/header/navbar';
 
   //Main - Video + Info
   @import './secciones/main/videoMain';
   @import './secciones/main/mainGlobal';
 
-  //Sección 1 - Info curso
+  // Info curso
   @import './secciones/main/seccion-1/infoCurso';
 
-  //Seccion 2 - Temario
+  // Header
+    @import './secciones/header/header';
+  // Temario
   @import './secciones/main/seccion-2/temario';
   @import './secciones/main/seccion-2/pagination';
 
-  //Seccion 4 - Testimoniales
+  // Testimoniales
   @import './secciones/main/seccion-4/testimoniales';
 
   // Quienes Somos

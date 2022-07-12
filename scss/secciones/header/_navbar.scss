@@ -1,0 +1,25 @@
+/*NAV*/
+
+// Para que se vean todas las letras del submenu
+.dropdown-menu {
+    min-width: 16rem;
+  }
+  // Para que quede el menú del lado derecho
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+  }
+  //Para ajustar tamaño logo
+  .navbar-brand img{
+    max-width: 150px;
+  }
+  //Para cambiar color de fondo
+  .navbar{
+    background-color: #0D102C;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+  }
+  .nav-link, .nav-link:focus, .nav-link:hover, .bi {
+    color: white;
+  }

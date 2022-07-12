@@ -1,30 +1,3 @@
-.header {
-    width: 100%;
-  }
-/*NAV*/
-// Para que se vean todas las letras del submenu
-.dropdown-menu {
-  min-width: 16rem;
-}
-// Para que quede el menú del lado derecho
-.navbar-expand-lg .navbar-collapse {
-  justify-content: flex-end;
-}
-//Para ajustar tamaño logo
-.navbar-brand img{
-  max-width: 150px;
-}
-//Para cambiar color de fondo
-.navbar{
-  background-color: #0D102C;
-  position: sticky;
-  width: 100%;
-  top: 0;
-  z-index: 10;
-}
-.nav-link, .nav-link:focus, .nav-link:hover, .bi {
-  color: white;
-}
   /*BANNER TEXT*/
   .banner-text {
     text-align: center;
@@ -32,11 +5,11 @@
   }
 
   .banner-text h1 {
-    font-size: 26px;
+    font-size: 70px;
     margin-bottom: 30px;
     font-weight: 500;
     margin-bottom: 30px;
-    max-width: 560px;
+    max-width: 850px;
     margin: 0 auto;
   }
 
@@ -45,7 +18,7 @@
   }
 
   .banner-text h2 {
-    font-size: 16px;
+    font-size: 24px;
     font-weight: 300;
     margin: 30px auto;
     max-width: 560px;
@@ -66,7 +39,7 @@
     width: 185px;
     margin: 10px;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 20px;
   }
 
   .button1:hover {
@@ -83,7 +56,7 @@
     width: 185px;
     margin: 10px;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 20px;
   }
 
   .button2:hover {

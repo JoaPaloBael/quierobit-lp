@@ -1,15 +1,11 @@
 @charset "UTF-8";
-* {
+*, p {
   margin: 0;
   padding: 0;
   text-decoration: none;
   box-sizing: border-box;
   max-width: 100%;
   font-family: "Montserrat", sans-serif;
-}
-
-.header {
-  width: 100%;
 }
 
 /*NAV*/
@@ -36,73 +32,6 @@
 
 .nav-link, .nav-link:focus, .nav-link:hover, .bi {
   color: white;
-}
-
-/*BANNER TEXT*/
-.banner-text {
-  text-align: center;
-  color: white;
-}
-
-.banner-text h1 {
-  font-size: 26px;
-  margin-bottom: 30px;
-  font-weight: 500;
-  margin-bottom: 30px;
-  max-width: 560px;
-  margin: 0 auto;
-}
-
-.banner-text span {
-  font-weight: 900;
-}
-
-.banner-text h2 {
-  font-size: 16px;
-  font-weight: 300;
-  margin: 30px auto;
-  max-width: 560px;
-}
-
-.banner-text div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.button1 {
-  padding: 10px 10px;
-  background-color: #0e31b3;
-  color: #FFFFFF;
-  border-radius: 5px;
-  width: 185px;
-  margin: 10px;
-  text-decoration: none;
-  font-size: 13px;
-}
-
-.button1:hover {
-  background-color: #FFFFFF;
-  color: #0e31b3;
-  transition: 0.5s;
-}
-
-.button2 {
-  padding: 10px 30px;
-  background-color: #FFFFFF;
-  color: #0e31b3;
-  border-radius: 5px;
-  width: 185px;
-  margin: 10px;
-  text-decoration: none;
-  font-size: 13px;
-}
-
-.button2:hover {
-  background-color: #0e31b3;
-  color: #FFFFFF;
-  transition: 0.5s;
 }
 
 /*VIDEO FONDO*/
@@ -157,12 +86,12 @@ main {
 .nombre-curso p {
   margin: 12px auto;
   font-weight: 100;
-  font-size: 0.8rem;
-  max-width: 600px;
+  font-size: 1.3rem;
+  max-width: 850px;
 }
 
 .nombre-curso h6 {
-  max-width: 600px;
+  font-size: 1.3rem;
   margin: 0 auto;
 }
 
@@ -195,6 +124,73 @@ main {
   /* position: absolute; */
 }
 
+/*BANNER TEXT*/
+.banner-text {
+  text-align: center;
+  color: white;
+}
+
+.banner-text h1 {
+  font-size: 70px;
+  margin-bottom: 30px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.banner-text span {
+  font-weight: 900;
+}
+
+.banner-text h2 {
+  font-size: 24px;
+  font-weight: 300;
+  margin: 30px auto;
+  max-width: 560px;
+}
+
+.banner-text div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button1 {
+  padding: 10px 10px;
+  background-color: #0e31b3;
+  color: #FFFFFF;
+  border-radius: 5px;
+  width: 185px;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.button1:hover {
+  background-color: #FFFFFF;
+  color: #0e31b3;
+  transition: 0.5s;
+}
+
+.button2 {
+  padding: 10px 30px;
+  background-color: #FFFFFF;
+  color: #0e31b3;
+  border-radius: 5px;
+  width: 185px;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.button2:hover {
+  background-color: #0e31b3;
+  color: #FFFFFF;
+  transition: 0.5s;
+}
+
 #temario, #temarioTrading {
   width: 390px;
   margin: 0 auto;
@@ -214,7 +210,7 @@ main {
   flex-direction: column;
   max-width: 500px;
   margin: 0 auto;
-  font-size: 0.8rem;
+  font-size: 1.3rem;
 }
 
 .temario-titulo span {
@@ -233,7 +229,7 @@ main {
   list-style: disc;
   margin: 0.5rem 0.5rem 0.5rem 2.5rem;
   padding: 1rem 2rem 2rem 3rem;
-  font-size: 0.6rem;
+  font-size: 1rem;
 }
 
 .temario-lista li {
@@ -418,61 +414,63 @@ main {
   .testimonials-sm, .testiPagination-sm {
     display: none;
   }
-
   .testimonials-xl, .testiPagination-xl {
     display: flex;
   }
-
   .testimonial:hover {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
     transform: scale(101%);
     transition: 0.07s;
   }
-
   .testimonial:hover p {
     font-weight: bolder;
     color: black;
     transition: 0s;
   }
 }
-.quienesSomosCards {
+.quienes-somos-container {
+  padding: 3rem 30px;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  color: white;
+  padding-bottom: 0;
+}
+
+.quienes-somos-cards {
   display: flex;
   justify-content: center;
   margin: 2rem;
   flex-wrap: wrap;
+  align-content: center;
 }
 
-.quienesSomosCards article {
-  width: 200px;
+.quienes-somos-card {
+  width: 350px;
   background-color: rgba(14, 50, 179, 0.18);
   border-radius: 1rem;
   margin: 0.5rem;
   padding: 0.5rem;
 }
-.quienesSomosCards article:hover {
+.quienes-somos-card:hover {
   box-shadow: 10px 10px rgba(0, 0, 0, 0.198);
 }
-.quienesSomosCards article .quienesSomosImg {
+
+.quienes-somos-img {
   width: 100px;
   border-radius: 50%;
   margin: 0.5rem;
   border: solid 8px #0D102C;
 }
-.quienesSomosCards article p {
-  margin: 0;
-}
 
-.quienesSomosCards h3 {
-  font-size: 0.8rem;
-}
-
-.juanCintioli p {
-  font-size: 1rem;
+.quienes-somos-card .nombre {
+  font-weight: 600;
+  font-size: 1.3rem;
 }
 
 @media (max-width: 650px) {
-  .quienesSomosCards {
+  .quienes-somos-cards {
     flex-direction: column;
+    margin: 0;
   }
 }
 .titular {
@@ -482,7 +480,7 @@ main {
 }
 
 .titular h1 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-bottom: 30px;
   font-weight: 500;
   margin-bottom: 30px;
@@ -495,26 +493,26 @@ main {
 }
 
 .titular p {
-  font-size: 0.8rem;
+  font-size: 1.3rem;
   font-weight: 300;
   margin: 30px auto;
-  max-width: 560px;
+  max-width: 850px;
 }
 
 .titular img {
-  max-width: 400px;
+  max-width: 650px;
 }
 
 .box-2-columnas {
   display: flex;
   flex-direction: row;
-  max-width: 400px;
+  max-width: 650px;
   margin: 0 auto;
   justify-content: center;
 }
 
 .box-2-columnas img {
-  max-width: 185px;
+  max-width: 310px;
   margin: 1rem;
 }
 
@@ -845,38 +843,30 @@ i.fab {
   .logo {
     margin-left: 30px;
   }
-
   .banner-text h1 {
     font-size: 36px;
     margin-bottom: 30px;
   }
-
   .banner-text {
     font-size: 20px;
   }
-
   .nombre-curso {
     max-width: 800px;
   }
-
   .cards {
     margin: 5rem 0;
   }
-
   .btn-descarga {
     margin: 2rem auto 2rem auto;
   }
-
   /*VIDEO*/
   #video {
     min-width: 170vw;
   }
-
   /*FORM*/
   .form {
     width: 600px;
   }
-
   /*TEMARIO*/
   #temario, #temarioTrading {
     width: 500px;
@@ -887,19 +877,16 @@ i.fab {
   .topnav a:not(:first-child) {
     display: none;
   }
-
   .topnav a.icon {
     float: right;
     display: block;
     margin: 10px auto;
   }
-
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
   }
-
   .topnav.responsive a {
     float: none;
     display: block;
